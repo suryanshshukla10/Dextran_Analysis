@@ -3,3 +3,15 @@ Dextran analysis is used to measure vascular permeability in live or fixed tissu
 
 # Project
 This repository provides Fiji macros for quantifying dextran leakage in fixed tissue images, enabling assessment of vascular permeability and TMEM doorway activity.
+
+## Requirements
+- Fiji (ImageJ)
+
+
+## Dextran Quantification Workflow
+![alt text](images/picture1_workflow.PNG.jpg)
+
+## Features
+- Preprocessing of Dextran images
+- Batch analysis using Fiji macros
+- Quantitative results in CSV format
