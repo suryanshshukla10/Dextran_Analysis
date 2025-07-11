@@ -48,3 +48,13 @@ This analysis pipeline is based on a methodology similar to that described in th
 The Fiji macro in this repository implements comparable quantification strategies to those used in the study above, enabling assessment of TMEM-mediated vascular permeability using fixed tissue imaging.
 
 ---
+
+## 📖 How to Cite
+
+If you use this software in your research or analysis, please cite the following:
+
+> **Suryansh Shukla. (2025).** *suryanshshukla10/Dextran_Analysis: v1.0*. Zenodo. [https://doi.org/10.5281/zenodo.15866303](https://doi.org/10.5281/zenodo.15866303)
+
+You can also export the citation in BibTeX, EndNote, or other formats from the [Zenodo page](https://doi.org/10.5281/zenodo.15866303).
+
+---
