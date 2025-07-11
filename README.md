@@ -53,8 +53,8 @@ The Fiji macro in this repository implements comparable quantification strategie
 
 If you use this software in your research or analysis, please cite the following:
 
-> **Suryansh Shukla. (2025).** *suryanshshukla10/Dextran_Analysis: v1.0*. Zenodo. [https://doi.org/10.5281/zenodo.15866303](https://doi.org/10.5281/zenodo.15866303)
+> **Suryansh Shukla. (2025).** *suryanshshukla10/Dextran_Analysis: v1.2*. Zenodo. [https://doi.org/10.5281/zenodo.15866463](https://doi.org/10.5281/zenodo.15866463)
 
-You can also export the citation in BibTeX, EndNote, or other formats from the [Zenodo page](https://doi.org/10.5281/zenodo.15866303).
+You can also export the citation in BibTeX, EndNote, or other formats from the [Zenodo page](https://doi.org/10.5281/zenodo.15866463).
 
 ---
