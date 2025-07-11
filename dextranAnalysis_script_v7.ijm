@@ -5,14 +5,9 @@ roiManager("reset");
 setBatchMode(true); // << Turn ON batch mode here
 
 // === Define main paths ===
-
-// Laptop
-//mainFolder = "C:/Users/surya/Documents/GitHub/Maddie-Dextran-Analysis/data/raw/test FOV/";
-//outputFolder = "C:/Users/surya/Documents/GitHub/Maddie-Dextran-Analysis/data/processed/";
-
-// Workstation
-mainFolder = "C:/Users/sushukla/Documents/GitHub/Maddie-Dextran-Analysis/data/raw/test FOV/"
-outputFolder = "C:/Users/sushukla/Documents/GitHub/Maddie-Dextran-Analysis/data/processed/"
+// TODO: Update these paths based on your system
+mainFolder = "C:/Path/To/Your/Input/Images/";
+outputFolder = "C:/Path/To/Your/Output/Folder/";
 
 
 // Create the results table
@@ -63,7 +58,8 @@ saveAs("Combined Results", outputFolder + "Combined_Area_Results.csv");
 
 
 // === Functions ===
-function dextranMask(currentFOV, fileName, OUTPUT_folder_path, folderName) {
+
+function dextranMask(currentFOV, fileName, OUTPUT_folder_path, folderName) {
     loadFile(currentFOV, fileName);
     renameSplitChannels(fileName);
 
@@ -205,4 +201,4 @@ function drawDextranOverlay(referenceWindow, overlayName, saveDir, baseFilename)
     cleanBase = replace(baseFilename, ".jpg", "");
     savePath = saveDir + cleanBase + "_DextranOverlay.tif";
     saveAs("Tiff", savePath);
-}
+}
