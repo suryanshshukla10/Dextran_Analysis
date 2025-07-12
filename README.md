@@ -12,7 +12,8 @@ This repository provides **Fiji macros** for automated quantification of dextran
 
 ## ⚙️ Requirements
 
-- [Fiji (ImageJ)](https://imagej.net/software/fiji/)
+- [Fiji 1.54g (ImageJ)](https://imagej.net/software/fiji/)
+  
 
 ---
 
